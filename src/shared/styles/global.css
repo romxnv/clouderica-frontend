@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #d57de1;
+  --color-primary-hover: #b347c1;
+
+  --color-dark: #1a1a1a;
+  --color-dark-light: #212121;
+
+  --color-gray-200: #e7e7e9;
+  --color-gray-400: #c4c7c5;
+  --color-gray-600: #797979;
+
+  --color-danger: #fb2c36;
+  --color-success: #00c951;
+
+  --color-violet: #cc8dff;
+  --color-rose: #ff878d;
+  --color-sky: #bac0fd;
+  --color-amber: #e3baa5;
+  --color-gray: #b8b8b8;
+  --color-cyan: #8ccafe;
+
+  --spacing-0.25: 1px;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  height: 100%;
+}
+
+body {
+  @apply text-dark dark:bg-dark bg-white dark:text-white;
+  font-family: 'Inter', sans-serif;
+  min-height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.gradient {
+  background-image: linear-gradient(
+    to right,
+    #8ccafe,
+    #cc8dff,
+    #ff878d,
+    #bac0fd,
+    #e3baa5,
+    #b8b8b8
+  );
+}

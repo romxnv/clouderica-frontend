@@ -1,0 +1,136 @@
+{
+  "common": {
+    "actions": {
+      "login": "Login",
+      "register": "Register",
+      "logout": "Logout",
+      "save": "Save",
+      "upload": "Upload",
+      "uploadHint": "Click or drag file to this area to upload",
+      "download": "Download",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password"
+    },
+    "validation": {
+      "required": "{{field}} is required",
+      "min": "The {{field}} must contain at least {{min}} characters.",
+      "passwordsMismatch": "Passwords do not match",
+      "emailFormat": "Oops! The email address you entered is invalid."
+    },
+    "fileLimits": {
+      "size": "Max file size: {{size}} MB",
+      "type": "Supported formats: {{types}}"
+    },
+    "confirmDialog": {
+      "deleteFile": "Are you sure you want to delete this file?"
+    },
+    "emptyState": {
+      "title": "No files here yet",
+      "description": "Upload your first file to get started"
+    },
+    "errors": {
+      "serverError": "Something went wrong. Please try again later",
+      "networkError": "No internet connection",
+      "unauthorized": "You are not authorized to perform this action",
+      "notFound": "Resource not found",
+      "forbidden": "Access denied"
+    },
+    "categories": {
+      "images": "Images",
+      "documents": "Documents",
+      "audios": "Audios",
+      "videos": "Videos",
+      "archives": "Archives",
+      "other": "Other"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Your Drive",
+      "description": "You can securely upload and manage your folders and files here",
+      "quickAccess": "Quick Access",
+      "recentFiles": "Recent Files"
+    },
+    "files": {
+      "title": "Files"
+    },
+    "settings": {
+      "title": "Settings Account"
+    },
+    "login": {
+      "title": "Login",
+      "description": "Hi, Welcome back 👋",
+      "noAccount": "Not registered yet?",
+      "createAccount": "Create an account"
+    },
+    "register": {
+      "title": "Register",
+      "description": "Hi, Welcome to Clouderica 👋",
+      "alreadyRegistered": "Already have an account?",
+      "createAccount": "Login"
+    }
+  },
+  "header": {
+    "avatarAlt": "User Avatar",
+    "accountSettings": "Account settings",
+    "starOnGithub": "Put a star on GitHub"
+  },
+
+  "footer": {
+    "openSourceCode": "Open-source code available on GitHub"
+  },
+  "preferences": {
+    "theme": {
+      "label": "Theme",
+      "options": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      }
+    },
+    "language": {
+      "label": "Language",
+      "options": {
+        "en": "English",
+        "ru": "Русский"
+      }
+    }
+  },
+  "toasts": {
+    "uploadSuccess": "File uploaded successfully",
+    "uploadError": "File upload failed",
+    "deleteSuccess": "File deleted successfully",
+    "deleteError": "File deletion failed",
+    "downloadSuccess": "File downloaded successfully",
+    "downloadError": "File download failed",
+    "avatarUploadSuccess": "Avatar uploaded successfully",
+    "avatarUploadError": "Avatar upload failed",
+    "avatarDeleteSuccess": "Avatar deleted successfully",
+    "avatarDeleteError": "Avatar deletion failed",
+    "registerSuccess": "User registered successfully",
+    "registerError": "User registration failed",
+    "loginSuccess": "User logged in successfully",
+    "loginError": "User login failed",
+    "logoutSuccess": "User logged out successfully",
+    "passwordChangeSuccess": "Password changed successfully",
+    "passwordChangeError": "Password change failed",
+    "passwordResetSuccess": "Password reset successfully",
+    "passwordResetError": "Password reset failed",
+    "passwordResetEmailSent": "Password reset email sent successfully",
+    "passwordResetEmailError": "Password reset email failed",
+    "userUpdateSuccess": "User updated successfully",
+    "userUpdateError": "User update failed",
+    "languageChanged": "Language changed successfully",
+    "themeChanged": "Theme changed successfully"
+  }
+}
